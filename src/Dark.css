@@ -1,0 +1,100 @@
+input::selection {
+    background-color: transparent; }
+    
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+
+  .card {
+    background-color: #111827;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-header {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+
+  .card-text {
+    margin: 5px 0;
+  }
+  
+
+  .card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .card-footer button {
+    margin-right: 5px;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+
+  .form-group label {
+    color: #fff;
+  }
+  
+
+  .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+
+  .btn {
+    color: #fff;
+  }
+  
+
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+
+  .btn-warning {
+    background-color: #ffc107;
+  }
+  
+
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+
+  .btn:hover {
+    opacity: 0.8;
+  }
