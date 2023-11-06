@@ -18,7 +18,7 @@ useEffect(() => {
   async function  Load()
   {
      const result = await axios.get(
-         "http://localhost:8084/api/v1/customer/getAllCustomers");
+         "http://65.20.102.228:8084/api/v1/customer/getAllCustomers");
          setUsers(result.data);
          console.log(result.data);
   }
@@ -28,7 +28,7 @@ useEffect(() => {
         event.preventDefault();
     try
         {
-         await axios.post("http://localhost:8084/api/v1/customer/newCustomer",
+         await axios.post("http://65.20.102.228:8084/api/v1/customer/newCustomer",
         {
           customername: customername,
           customeraddress: customeraddress,
@@ -56,7 +56,7 @@ useEffect(() => {
 
    async function deleteCustomer(customerid)
    {
-        await axios.delete("http://localhost:8084/api/v1/customer/deleteCustomer/" + customerid); 
+        await axios.delete("http://65.20.102.228:8084/api/v1/customer/deleteCustomer/" + customerid); 
         Load();
    }
 
@@ -66,7 +66,7 @@ useEffect(() => {
 
    try
        {
-        await axios.put("http://localhost:8084/api/v1/customer/updateCustomer/",
+        await axios.put("http://65.20.102.228:8084/api/v1/customer/updateCustomer/",
        {
         customerid: customerid,
         customername: customername,
